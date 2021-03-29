@@ -1,5 +1,8 @@
 # KaliszFabjanskaKnopHaremski
-Wiktoria Kalisz 
-Wiktoria Fabjańska 
-NAtalia Knop 
-Wojciech Haremski 
+Wiktoria Kalisz  
+
+Wiktoria Fabjańska  
+
+Natalia Knop  
+
+Wojciech Haremski  
