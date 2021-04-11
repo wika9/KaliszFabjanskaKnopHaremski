@@ -2,21 +2,21 @@
 install.packages("stringr")
 library(stringr)
 
-tekst1 = list("TERYT 18; podkarpackie; Rzeszów; 0.2 He; A")
-tekst2 = list("TERYT 22; pomorskie;   Gdañsk; 12 C ; B")
+tekst1 = list("TERYT 18; podkarpackie; Rzeszow; 0.2 He; A")
+tekst2 = list("TERYT 22; pomorskie;   Gdansk; 12 C ; B")
 str_sub(tekst1, start = -5, end = -4)
 str_sub(tekst2, start = -5, end = -5)
 
 #2,3
 horoskop = function(imie, miesiac){
   if(str_detect(imie, pattern = "^[KMZkmz]")){
-    cat("Osoba o imieniu", imie, "bêdzie mia³a jutro szczêœcie.")
+    cat("Osoba o imieniu", imie, "bedzie miala jutro szczescie.")
   }
   else if(miesiac %% 2 == 0){
-    cat("Osoba o imieniu", imie, "bêdzie mia³a jutro szczêœcie.")
+    cat("Osoba o imieniu", imie, "bedzie miala jutro szczescie.")
   }
   else{
-    cat("Osoba o imieniu", imie, "bêdzie mia³a jutro nieszczêœcie.")
+    cat("Osoba o imieniu", imie, "bedzie miala jutro nieszczescie.")
   }
 }
 
